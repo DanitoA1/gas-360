@@ -1,12 +1,12 @@
 <template>
   <div>
-    <!-- Landing Page -->
+     <!-- Landing Page -->
     <div class="landing-page">
         <div class="container">
             <!-- Navbar -->
             <div class="kiakia-navbar py-4">
                 <div class="logo">
-                    <a href="/"> <img src="../assets/images2/Layer 6.svg" alt="KiaKia-Glogo">
+                    <a href="/"> <img src="../assets/images1/Layer 6.svg" alt="KiaKia-Glogo">
                     </a>
                 </div>
                 <div class="tabs">
@@ -30,14 +30,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h5 class="head">
-                            About us
+                            BECOME A SUPPLIER
                         </h5>
                         <h1>
-                            Sustainability is our lifestyle
+                            Be a Gaspreneur
                         </h1>
                     </div>
                     <div class="col-md-6 text-center gas360-circle">
-                        <p> <img src="../assets/images2/Linked Path Group.svg" alt=""></p>
+                        <p> <img src="../assets/images1/Linked Path Group.svg" alt=""></p>
                     </div>
 
                 </div>
@@ -49,52 +49,100 @@
 
     <!-- E Landing Page -->
     <!-- Body -->
+    <div class="  container my-5 ">
 
-    <div class="container sustainability my-5 text-center">
-        <div class="mission">
-            <div class="head my-2">
-                the mission
-            </div>
-            <h3>
-                Accelerate clean cooking for the underserved
-            </h3>
-            <p>
-                Our goal is to reach last mile consumers who earn between $1— $8 per day across Africa
-            </p>
+        <div class="head my-2">
+            DISTRIBUTION
         </div>
+        <h3 style="color: #011230;">
+            Join our Smart Distro Network
+        </h3>
+        <p style="color:  #333333;">
+            Be part of our solution to expand access to clean cooking for households in under-served areas who earn
+            between $1-$8 per day.
+        </p>
     </div>
-    <div class=" sustainability container">
+
+    <div class="  container my-5 ">
         <div class="row">
             <div class="col-md-6">
-                <div class="head my-2">
-                    the mission
-                </div>
-                <h4>
-                    We are committed to sustainability
+                <h4 style="color: #011230;">
+                  Ready to get started?
                 </h4>
-                <p class="under-note">
-                    We convert scrap metal from expired LPG cylinders to make the enclosures for the IOT device.
-                    Scrap
-                    from laptop batteries(18650 li-on batteries) is used to power the IOT devices. </p>
+                <p style="color:  #333333;">
+                        Please fill out our contact form and our team would be in touch or email us directly at <span
+                            style="color: #3789EC;"> support@gas360.io</span>
+                </p>
             </div>
-            <div class="col-md-6 sustain">
-                <img src="../assets/images2/Group 1789.svg" alt="sustainability culture">
-            </div>
-        </div>
-    </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="position-relative">
+                        <input required type="text" name="full-name" id="full-name" placeholder="Full name">
+                        <img class="icon position-absolute" src="../assets/images1/Vector.svg" alt="name">
+                    </div>
 
-    <div class=" sustainability container my-5 text-center">
-        <div class="mission">
-            <div class="head my-2">
-                Who we are
+                    <div class="position-relative">
+                        <input required type="phone" name="phone" id="phone" placeholder="Phone number">
+                        <img class="icon position-absolute" src="../assets/images1/Vector-1.svg" alt="phone">
+                    </div>
+
+                    <div class="position-relative">
+                        <input required type="email" name="email" id="email" placeholder="Email Address">
+                        <img class="icon position-absolute" src="../assets/images1/Vector-2.svg" alt="maill">
+                    </div>
+
+                    <div class="position-relative">
+                        <input required type="text" name="location" id="location" placeholder="Location">
+                        <img class="icon position-absolute" src="../assets/images1/carbon_location.svg"
+                            alt="location">
+                    </div>
+                    <div class="position-relative">
+                        <input required type="text" name="company-name" id="company-name" placeholder="Company name">
+                        <img class="icon position-absolute" src="../assets/images1/Vector-4.svg" alt="company">
+                    </div>
+                    <!-- type of business -->
+                    <label class="mt-3 mb-1 label-head">Type of buisiness</label>
+                    <p>
+                        <input type="radio" id="micro" name="buisiness" value="micro">
+                        <label for="micro">Micro retailer(&#60;500kg) </label><br>
+                        <input type="radio" id="mini" name="buisiness" value="mini">
+                        <label for="mini">Mini retailer (2-10mt)</label><br>
+                        <input type="radio" id="setup" name="buisiness" value="setup">
+                        <label for="setup">I would like to set up an LPG retail business</label>
+                    </p>
+                    <!-- cylinder inventory -->
+                    <label class="mt-3 mb-1 label-head">Cylinder Inventory</label>
+                    <p>
+                        <input type="radio" id="no-cylinder" name="inventory" value="no-cylinder">
+                        <label for="no-cylinder">I do not have cylinders </label><br>
+                        <input type="radio" id="less-than-10" name="inventory" value="less-than-10">
+                        <label for="less-than-10">&#60;10 cylinders</label><br>
+                        <input type="radio" id="ten-to-fifty" name="inventory" value="ten-to-fifty">
+                        <label for="ten-to-fifty">10-50cylinders</label><br>
+                        <input type="radio" id="less-than-50" name="inventory" value="less-than-50">
+                        <label for="less-than-50"> >50 cylinders</label>
+                    </p>
+                    <!-- how do you know us -->
+                    <label class="mt-3 mb-1 label-head">How did you hear abour us?</label>
+                    <p>
+                        <input type="checkbox" id="gas360website" name="how-you-know-us" value="gas360website">
+                        <label for="gas360website">Gas360 website</label><br>
+                        <input type="checkbox" id="social-media" name="how-you-know-us" value="social-media">
+                        <label for="social-media">Social media</label><br>
+                        <input type="checkbox" id="friend" name="how-you-know-us" value="friend">
+                        <label for="friend">A friend</label><br>
+                        <input type="checkbox" id="outlets" name="how-you-know-us" value="outlets">
+                        <label for="outlets">News outlets</label><br>
+                        <input type="checkbox" id="event" name="how-you-know-us" value="event">
+                        <label for="event">At a conference or event</label>
+                    </p>
+                    <button type="button" class="btn btn-primary">Submit Form</button>
+
+                </form>
             </div>
-            <h3>
-                Democratizing Energy Access in Africa
-            </h3>
-            <p>
-                We are solving the energy poverty problem across households in Africa using IOT and Big Data </p>
         </div>
     </div>
+    <!--  E body -->
 
     <!-- Upgrade -->
     <div class="upgrade text-white">
@@ -111,14 +159,14 @@
                     </p>
                     <div class="download">
                         <div>Get the App</div>
-                        <a href="#"> <img src="../assets/images2/Google Play Badge.png" alt="gplay">
+                        <a href="#"> <img src="../assets/images1/Google Play Badge.png" alt="gplay">
                         </a>
-                        <a class="me-3" href="#"> <img src="../assets/images2/App Store Badge.png" alt="apple">
+                        <a class="me-3" href="#"> <img src="../assets/images1/App Store Badge.png" alt="apple">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 cta mt-5">
-                    <img src="../assets/images2/iPhone.png" alt="">
+                    <img src="../assets/images1/iPhone.png" alt="">
                 </div>
             </div>
         </div>
@@ -129,7 +177,7 @@
     <div class="container">
         <div class="footer ">
             <div class="footer-card">
-                <img src="../assets/images2/Layer 6.svg" alt="logo">
+                <img src="../assets/images1/Layer 6.svg" alt="logo">
             </div>
             <div class="footer-card">
                 <div class="mb-1"><b>Company</b></div>
@@ -168,17 +216,17 @@
     <!-- Mobile Footer -->
     <div class="container footer-mobile">
         <div class="footer-card my-5">
-            <img src="../assets/images2/Layer 6.svg" alt="logo">
+            <img src="../assets/images1/Layer 6.svg" alt="logo">
         </div>
         <section class="questions">
             <!-- questions -->
 
             <!-- single question -->
-            <article class="question" @click="showText()">
+            <article class="question">
                 <!-- question title -->
                 <div class="question-title">
                     <p>Company</p>
-                    <div class="question-btn">
+                    <div class="question-btn" @click="showText()">
                         <span class="plus-icon">
                             <span class="mdi mdi-chevron-right mdi-24px"></span>
                         </span>
@@ -378,7 +426,8 @@ export default {
   .landing-page {
     min-width: 100%;
     min-height: auto;
-    background-image: url("../assets/images2/Rectangle.png");
+
+    background-image: url("../assets/images1/Rectangle.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -408,25 +457,10 @@ export default {
   .tabs a {
     color: #000;
   }
-
   /* ===========CONTENT ================= */
   .head {
     text-transform: uppercase;
     color: var(--primary);
-  }
-
-  /* ============= mission ================= */
-
-  .mission {
-    padding: 20px;
-  }
-  .under-note {
-    font-size: 17px;
-    color: #474a57;
-  }
-  .sustain img {
-    margin: 0 auto;
-    height: 250px;
   }
 
   /* ==============upgrade=========================== */
@@ -496,6 +530,38 @@ export default {
   .show-text .plus-icon {
     display: none;
   }
+
+  input[type="text"],
+  input[type="phone"],
+  input[type="email"] {
+    width: 100%;
+    border: none;
+    padding: 10px 10px 10px 35px;
+    border-bottom: 1px solid #555555;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 15px;
+  }
+
+  input[type="text"]:focus,
+  input[type="phone"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-bottom: 1.5px solid var(--primary);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .label-head {
+    font-size: 25px;
+  }
+  .icon {
+    top: 13px;
+    left: 0;
+  }
+  p label {
+    color: #474a57;
+  }
   /* ==================footer===================== */
   .footer {
     display: flex;
@@ -563,6 +629,9 @@ export default {
       display: block !important;
       margin: 50px 20px !important;
     }
+    .menu-list li:last-child {
+      display: none !important;
+    }
     .menu-list a {
       font-size: 25px;
     }
@@ -570,27 +639,19 @@ export default {
       color: var(--primary) !important;
     }
 
-    .menu-list li:last-child {
-      display: none !important;
-    }
-    .sustainability {
-      text-align: center;
-    }
-    .cta {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .cta img {
-      width: 350px;
-    }
-
     h5.head {
       font-size: 16px;
     }
     .gas360-circle {
       padding: 50px 0;
+    }
+    .label-head {
+      font-size: 20px;
+    }
+    form button {
+      width: 100%;
+      background-color: var(--primary);
+      margin-bottom: 50px;
     }
     /* ======================= Footer====================== */
     .footer .footer-card {
